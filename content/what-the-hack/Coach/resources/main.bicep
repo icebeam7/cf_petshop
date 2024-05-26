@@ -1,6 +1,6 @@
 @minLength(3)
 @maxLength(11)
-param namePrefix string
+param namePrefix string = 'cfluis'
 
 param location string = resourceGroup().location
 
